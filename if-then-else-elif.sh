@@ -12,10 +12,10 @@ if [ "$name" == "Josh" ]; then
 	        echo "Food."
 	    elif [ "$activity" == "What time is lunch?" ]; then
 	        echo "Around 12p."
-        elif [ "$activity" == "Nothing." ]; then
-            echo "Have a nice day, Josh!"
-        elif [ "$activity" == "What is your name?" ]; then
-            echo "My name is HAL. Josh created me as a sample if/then/else/elif script."
+            elif [ "$activity" == "Nothing." ]; then
+                echo "Have a nice day, Josh!"
+            elif [ "$activity" == "What is your name?" ]; then
+                echo "My name is HAL. Josh created me as a sample if/then/else/elif script."
 	else
 	    echo "I cannot do that yet, sorry."
 	fi
