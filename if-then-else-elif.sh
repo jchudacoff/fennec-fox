@@ -4,8 +4,7 @@ d=$(date)
 echo "Hello, what is your name?"
 read name
 if [ "$name" == "Josh" ]; then
-	echo "Welcome, Josh!"
- 	sleep 3
+	echo "Welcome, Josh!"; sleep 2
  	echo "What can I do for you?"
 	read activity
 	if [ "$activity" == "What is the date?" ]; then
